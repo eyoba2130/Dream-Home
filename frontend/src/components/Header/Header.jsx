@@ -7,7 +7,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className='relative flex justify-between items-center px-12 md:px-16 py-4 md:py-8 bg-[#FDF8F5] ' >
+    <div className='relative flex justify-between items-center px-16 md:px-16 py-4 md:py-8 bg-[#FDF8F5] ' >
       {/*Logo */}
       <div>
         <div className='flex flex-col items-start gap-0.5'>
