@@ -5,6 +5,10 @@ import HeroSection from './components/Section1/Herosection'
 import InfoSection from './components/Section2/InfoSection'
 import WhyChooseUs from './components/Section3/WhyChooseUs'
 import PopularResidences from './components/Section4/PopularResidence'
+import TestimonialSection from './components/TestimonialSection/TestimonialSection'
+import HelpSection from './components/HelpSection/HelpSection'
+import Footer from './components/Footer/Footer'
+
 
 function App() {
 
@@ -17,6 +21,9 @@ function App() {
       <InfoSection />
       <WhyChooseUs />
       <PopularResidences />
+      <TestimonialSection />
+      <HelpSection />
+      <Footer />
 
       
     </BrowserRouter>
@@ -24,3 +31,5 @@ function App() {
 }
 
 export default App
+
+

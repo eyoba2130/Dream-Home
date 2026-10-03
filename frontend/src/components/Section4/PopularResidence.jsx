@@ -9,21 +9,21 @@ export default function PopularResidences({ residences = [] }) {
   // Props
   const defaultResidences = [
     {
-      image: {image1},
+      image: image1,
       location: "San Francisco, California",
       rooms: "4 Rooms",
       area: "3,500 sq ft",
       price: "$2,500,000"
     },
     {
-      image: {image2},
+      image: image2,
       location: "Beverly Hills, California",
       rooms: "3 Rooms",
       area: "1,500 sq ft",
       price: "$850,000"
     },
     {
-      image: {image3},
+      image: image3,
       location: "Palo Alto, California",
       rooms: "6 Rooms",
       area: "4,000 sq ft",
